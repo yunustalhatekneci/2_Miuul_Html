@@ -30,6 +30,94 @@
 <body>
     <noscript>Your browser does not support JavaScript</noscript>
     <!-- start codes -->
+    <!-- Intermedia Form and Table  -->
+     <h1>Intermedia Form and Table</h1>
+    <form>
+       <hr>
+       <table>
+         <tr>
+             <td><label for="uname">ADINIZ:</label></td>
+             <td>
+                <input 
+                type="text"
+                 id="uname" 
+                 name="uname"
+                required
+                placeholder="Adınızı giriniz"
+                title="Adınızı giriniz"
+                autofocus>
+            </td>
+         </tr>
+         <tr>
+             <td><label for="usurname">SOYADINIZ:</label></td>
+            <td><input type="text"
+             id="usurname" 
+             name="usurname"
+            required
+            placeholder="Soy Adınızı giriniz"
+            title="Soy Adınızı giriniz"
+            autofocus>
+        </td>
+         </tr>
+         <tr>
+             <td><label for="uemail">EMAIL:</label></td>
+             <td>
+                <input type="text"
+                id="uemail" 
+                name="uemail"
+               required
+               placeholder="E mailinizi giriniz"
+               title="E mailinizi giriniz"
+               autofocus>
+             </td>
+         </tr>
+         <tr>
+             <td><label for="upassword">PASSWORD:</label></td>
+             <td><input type="password"
+                id="upassword" 
+                name="upassword"
+               required
+               placeholder="Parola giriniz"
+               title="Parola giriniz"
+               minlength="3"
+               maxlength="10"
+               pattern="[a-zA-Z0-9]{3,10}"
+               >
+            </td>
+         </tr>
+         <tr>
+            <td><label>GENDER:</label></td>
+            <td><input type="radio"
+               id="female" 
+               name="gender"
+              checked
+              placeholder="Parola giriniz"
+              >Bayan
+              <input type="radio"
+               id="male" 
+               name="gender"
+              >Bay
+           </td>
+        </tr>
+        <tr>
+            <td><label for="udate">DATE:</label></td>
+            <td><input type="datetime-local"
+               id="udate" 
+               name="udate"
+              
+              >
+            
+        </tr>
+      
+       </table>
+       <div>
+        <input type="reset">
+        <button type="submit">GONDER</button>
+    </div>
+    </form>
+    <hr>
+    <hr>
+        
      <!-- basic form and table -->
      <h1>Basic Form AND Table</h1>
      <form>
@@ -39,8 +127,8 @@
                 <td><input type="text" id="uname" name="name" required></td>
             </tr>
             <tr>
-              <label for="usurname">SOYADINIZ:</label>
-                <input type="text" id="usurname" name="name" required>
+             <td><label for="usurname">SOYADINIZ:</label></td>
+               <td><input type="text" id="usurname" name="name" required></td>
             </tr>
             <tr>
                 <td><label for="uemail">EMAIL:</label></td>
